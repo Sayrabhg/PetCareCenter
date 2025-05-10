@@ -1,0 +1,28 @@
+a { 
+    background-color: wheat;
+    color:indigo;
+    font-size: 20px;
+    font-family: monospace;
+    padding:7px 20px;
+    border-radius: 5px 20px;
+    text-decoration: none;
+    position: absolute;
+    right:80px;
+    top:120px;
+}
+a:hover{
+    color: wheat;
+    background-color: cadetblue;
+}
+
+h1,h2{
+    font-family: cursive;
+    font-size: 30px;
+    margin: 10px 00px ;
+    text-decoration: none;
+    color: wheat;
+}
+.container{
+    font-family: cursive;
+
+}

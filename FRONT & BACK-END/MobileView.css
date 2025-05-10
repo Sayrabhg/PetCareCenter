@@ -1,0 +1,543 @@
+@media screen and (max-width:600px){
+    /* Nav */
+
+    .container1{
+        left:-20px;
+    }
+    .list{
+        padding:0;
+    }
+    .list2-1{
+        left:117px;
+    }
+    .a1{
+        padding:5px 20px;
+    }
+
+    /* MainPage */
+
+    .sub-container{
+        height: 323px; 
+    }
+    .fb_img{
+        width:24px;
+    }
+    .ig_img{
+        width:24px;
+    }
+    .outer_ig{
+        top:24px;
+    }
+    .img2{
+        width: 120px;
+        top:-310px;
+    }
+    .box2{
+        top:60px;
+        right:60px;
+        width:100px;
+    }
+    .img3{
+        width:120px;
+    }
+    .box1{
+        width:300px;
+        left:140px;
+    }
+    .loginAdmin{
+        width:300px;
+        display: flex;
+        position: absolute;
+        top:120px;
+        left:22px;
+    }
+    .lgAn{
+        color:rgb(105, 105, 105);
+        font-size: 10px;
+        font-family: cursive;
+        font-weight: bold;
+        background-color:rgba(171, 171, 171, 0.183);;
+        text-decoration: none;
+        border: 1px solid green;
+        border-radius:0 6px;
+        padding:2px 6px;
+    }
+    .txt1{
+        font-size: 24px;
+        padding-left: 8px;
+    }
+    .box3{
+        top:260px;
+        left:20px;
+        width:440px;
+    }
+    .txt2{
+        font-size: 17px;
+    }
+
+    /* Home */
+
+    .sub-container1{
+        width:98%;
+        height: 1340px;
+        margin:13px;
+        border-radius: 20px;
+    
+        display: block;
+        position: absolute;
+        top:360px;
+        left:-7px;
+    }
+    
+    .cards1{
+        width:700px;
+        height:100px;
+        left:44%;
+    }
+    
+    #Home{
+        font-size: large;
+    }
+    .cards1-1{
+        width: 83%;
+        height: 300px;
+        padding: 0 10px;
+        top:690px;
+        left:30px;
+    }
+    .cards1-1:hover,.cards1-2:hover{
+        box-shadow: 0 0 30px darkolivegreen;
+    }
+    .cards1-2{
+        width: 83%;
+        height: 300px;
+        padding: 0 10px;
+        top:1000px;
+        left:30px;
+    }
+    .home1{
+        font-size: 15px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .cards1-1:hover .home1,.cards1-2:hover .home1{
+        
+        text-shadow: 0 1px green;
+    }
+    .home2{
+        font-size: 14px;
+    }
+    .cards1-3{
+        width: 300px;
+        height: 540px;
+        border-radius: 20px;
+        top:100px;
+        left:85px;
+    }
+    .cards1-3:hover{
+        box-shadow: 0 0 20px darkolivegreen;
+    }
+    .img1-31{
+        width:300px;
+        height: auto;
+    }
+
+    /* About */
+
+    .sub-container2{
+        top:1710px;
+        left:-7px;
+    }
+    .cards1{
+        width:100px;
+        height:50px;
+        display: block;
+        position: absolute;
+        left:40%;
+    }
+    #About , #Services{
+        font-size: large;
+    }
+
+    .cards2-1{
+        width:100px;
+        height: 60px;
+        border-radius:130px 5px;
+        top:70px;
+        left:30px;
+    }
+    .cards2-1:hover,
+    .cards2-2:hover{
+        height: 500px;
+        left:60px;
+    }
+    .cards2-4:hover,
+    .cards2-5:hover{
+        height: 500px;
+        left:120px;
+    }
+    .cards2-2:hover .h2{
+        color:cornsilk;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:5px;
+        left:10px;
+        z-index: 1;
+    }
+    .h2{
+        color:cornsilk;
+        text-shadow:0 0 6px black;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:5px;
+        left:126px;
+        z-index: 1;
+    }
+    .h2-2{
+        color:cornsilk;
+        text-shadow:0 0 6px black;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:144px;
+        left:14px;
+        z-index: 1;
+    }
+    .h2-3{
+        color:cornsilk;
+        font-size: 30px;
+        text-shadow:0 0 6px black;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:-10px;
+        left:120px;
+        z-index: 1;
+    }
+    .h2-4{
+        color:cornsilk;
+        font-size: 30px;
+        text-shadow:0 0 6px black;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:-14px;
+        left:120px;
+        z-index: 1;
+    }
+    .h3{
+        width:190px;
+        color:cornsilk;
+        filter: blur(.6px);
+        filter: drop-shadow(2px);
+        position: absolute;
+        top:140px;
+        left:25px;
+        display: none;
+    }
+    .p1{
+        display: none;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        color:rgb(47, 47, 47);
+        padding:14px;
+        text-indent: 15px;
+        font-family: cursive;
+        z-index: 1;
+        position: absolute;
+        top:200px;
+        text-rendering: geometricPrecision;
+    }
+    .cards2-1:hover .p1,
+    .cards2-2:hover .p1,
+    .cards2-4:hover .p1-2,
+    .cards2-5:hover .p1-2,
+    .cards2-1:hover .h3{
+        display: block;
+        transition-timing-function: ease;
+        transition-duration: 3s;
+    }
+    .span1{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .img4{
+        width:100px;
+        height: 60px;
+        z-index: -1;
+        
+        transition-timing-function: ease;
+        transition: 1s;
+        position: absolute;
+        top:0;
+    }
+    .cards2-1:hover .img4,
+    .cards2-2:hover .img4,
+    .cards2-4:hover .img4{
+        width: 300px;
+        height: 200px;
+    
+        background-size: cover;
+        position: absolute;
+        
+    }
+    
+    .cards2-2{
+        width:100px;
+        height: 60px;
+        border-radius:130px 5px;
+        top:70px;
+        left:130px;
+    }
+    
+    .img4-1{
+        width:100px;
+        height: 100px;
+        z-index: -1;
+        
+        transition-timing-function: ease;
+        transition: 1s;
+        position: absolute;
+        left:-1px;
+    }
+    .cards2-3:hover .img4-1{
+        width:100px;
+    
+        background-size: cover;
+        position: absolute;
+        
+    }
+    .cards2-3{
+        width:200px;
+        height: 100px;
+        z-index: -1;
+        border-radius:160px 40px 40px 160px;
+        transition-timing-function: ease;
+        transition: 1s;
+        overflow: hidden;
+        position: absolute;
+        bottom:30px;
+        left:40px;
+    }
+    .cards2-3:hover .p1-1{
+        display: block;
+        transition-timing-function: ease;
+        transition-duration: 3s;
+    }
+    .cards2-3:hover{
+        width:380px;
+        height: 100px;
+        background-color: rgb(255, 177, 59);
+        border-radius:160px 40px 40px 160px;
+        border:1px solid gray;
+        overflow: hidden;
+        z-index: 1;
+        position: absolute;
+        bottom:30px;
+    }
+    .p1-1{
+        display: none;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        color:rgb(47, 47, 47);
+        padding:14px;
+        text-indent: 15px;
+        font-family: cursive;
+        position: absolute;
+        top:-20px;
+        left:85px;
+        text-rendering: geometricPrecision;
+    }
+    
+    .cards2-4{
+        width:100px;
+        height: 60px;
+        border-radius:130px 5px;
+        top:70px;
+        left:230px;
+    }
+    .cards2-5{
+        width:100px;
+        height: 60px;
+        border-radius:130px 5px;
+        top:70px;
+        left:330px;
+    }
+    .p1-2{
+        display: none;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        color:rgb(255, 255, 255);
+        padding:14px;
+        text-indent: 15px;
+        font-family: cursive;
+        z-index: 1;
+        position: absolute;
+        top:200px;
+        text-rendering: geometricPrecision;
+    }
+    .img4-2{
+        width:100px;
+        height: 70px;
+        z-index: -1;
+        
+        transition-timing-function: ease;
+        transition: 1s;
+        position: absolute;
+        top:0;
+    }
+    .cards2-5:hover .img4-2{
+        width:300px;
+        height: 400px;
+    
+        background-size: cover;
+        position: absolute;
+    }
+    
+    .cards2-6{
+        width: 420px;
+        height: 120px;
+        border-bottom: 1px solid olivedrab;
+    
+        position: absolute;
+        top:180px;
+        left:24px;
+    }
+    .cardbox1-1{
+        font-size: large;
+    }
+    .cards2-7{
+        width: 420px;
+        height: 140px;
+        border-bottom: 1px solid olivedrab;
+    
+        position: absolute;
+        top:310px;
+        left:24px;
+    }
+    .cards2-8{
+        width: 420px;
+        height: 140px;
+        border-bottom: 1px solid olivedrab;
+    
+        position: absolute;
+        top:460px;
+        left:24px;
+    }
+
+    /* Serives */
+
+    .sub-container3{
+        width:98%;
+        height: 210%;
+        top:351%;
+        left:-7px;
+    }
+
+    .cards3{
+        width:40%;
+        height: 330px;
+        padding: 0px 10px;
+        top:80px;
+        left:16px;
+    }
+    .cards3-0{
+        width:40%;
+        height: 330px;
+        padding: 0 10px;
+        top:80px;
+        left:244px;
+    }
+    .cards3-1{
+        width:40%;
+        height: 480px;
+        padding: 0px 10px;
+        top:980px;
+        left:16px;
+    }
+    .cards3-2{
+        width:40%;
+        height: 530px;
+        padding: 0 10px;
+        top:440px;
+        left:16px;
+    }
+    .cards3-3{
+        width:40%;
+        height: 560px;
+        padding: 0 10px;
+        top:440px;
+        left:244px;
+    }
+    .cards3-4{
+        width:40%;
+        height: 280px;
+        padding: 0px 10px;
+        top:1030px;
+        left: 244px;
+    }
+    
+    /* Links */
+
+    .containerN{
+        border-top-left-radius: 360px;
+
+        top:565%;
+    }
+    .links0{
+        font-family: cursive;
+        letter-spacing: 4px;
+        position: absolute;
+        top:20px;
+        left: 240px;
+    }
+    .h11{
+        font-size: 18px;
+    }
+    .links1{
+        width:280px;
+        left:200px;
+    }
+    .a11{
+        border-bottom: 1px solid gray;
+    }
+    .l1{
+        border:none;
+        padding-top: 6px;
+    }
+    #li{
+       margin-left: -180px;
+    }
+    .links2{
+        line-height: 25px;
+        position: absolute;
+        top:260px;
+        left:200px;
+    }
+    .links3{
+        color:whitesmoke;
+    
+        position: absolute;
+        top:400px;
+        left:20px;
+    }
+    .links4{
+        position: absolute;
+        bottom: 13px;
+        right:20px;
+    }
+    .btn{
+        padding:10px 25px;
+        color:whitesmoke;
+        background-color:rgb(39, 216, 39);
+        border: 1px solid rgb(28, 192, 28);
+        border-style: outset;
+        border-radius: 20px;
+    }
+    .btn:hover{
+        background-color: rgb(20, 211, 20);
+    }
+
+}
